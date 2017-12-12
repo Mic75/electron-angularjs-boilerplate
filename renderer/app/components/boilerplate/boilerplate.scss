@@ -1,0 +1,22 @@
+.welcome {
+  height: 100%;
+}
+
+.logo {
+  background-image: url('./unity.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 600px;
+  animation: pulsate 1s ease-out;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.1, 0.1)
+  }
+  100% {
+    transform: scale(1.2, 1.2);
+  }
+}
