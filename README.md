@@ -3,6 +3,7 @@ Basic boilerplate for building an Electron App using AngularJS an Angular Materi
 
 ## Install
 `npm i`
+
 `npm run build`
 
 ## Start
